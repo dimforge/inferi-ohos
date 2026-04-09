@@ -1,0 +1,13 @@
+# Cross-compilation targets for OpenHarmony.
+# OHOS_NDK_HOME must be set to the SDK path, e.g.:
+#   /Applications/DevEco-Studio.app/Contents/sdk/default/openharmony  (macOS)
+#
+# The ohrs CLI handles this automatically. If you build manually with cargo,
+# you need wrapper scripts that invoke the NDK clang with the right --target
+# and --sysroot flags — see build.sh for a working example.
+
+[target.aarch64-unknown-linux-ohos]
+linker = "aarch64-unknown-linux-ohos-clang.sh"
+
+[target.x86_64-unknown-linux-ohos]
+linker = "x86_64-unknown-linux-ohos-clang.sh"

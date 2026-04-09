@@ -1,0 +1,14 @@
+[package]
+name = "inferi-ohos"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi-ohos = "1"
+napi-derive-ohos = "1"
+
+[build-dependencies]
+napi-build-ohos = "1"

@@ -1,0 +1,19 @@
+# Rust
+rust/target/
+rust/dist/
+
+# HarmonyOS build
+entry/build/
+build/
+.preview/
+.hvigor/
+node_modules/
+oh_modules/
+
+# Native libs (built artifacts)
+entry/libs/arm64-v8a/
+entry/libs/x86_64/
+
+# DevEco Studio
+.idea/
+local.properties

@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Main entry module for inferi-ohos",
+  "main": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

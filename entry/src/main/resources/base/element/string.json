@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "inferi-ohos entry module"
+    },
+    {
+      "name": "ability_desc",
+      "value": "Main ability"
+    },
+    {
+      "name": "app_name",
+      "value": "Inferi"
+    }
+  ]
+}
