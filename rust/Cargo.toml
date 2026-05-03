@@ -9,6 +9,18 @@ crate-type = ["cdylib"]
 [dependencies]
 napi-ohos = "1"
 napi-derive-ohos = "1"
+inferi = { version = "0.1", default-features = false, features = ["cpu-parallel"] }
+khal = "0.1"
+minijinja = "2"
+nalgebra = "0.34"
+async-std = { version = "1", features = ["attributes"] }
 
 [build-dependencies]
 napi-build-ohos = "1"
+
+[patch.crates-io]
+#khal = { path = "../../khal/crates/khal" }
+#khal-std = { path = "../../khal/crates/khal-std" }
+#khal-builder = { path = "../../khal/crates/khal-builder" }
+#vortx = { path = "../../vortx" }
+#vortx-shaders = { path = "../../vortx/vortx-shaders" }

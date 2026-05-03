@@ -1,8 +1,11 @@
 declare namespace inferi {
-  function add(a: number, b: number): number;
-  function fibonacci(n: number): number;
-  function reverseString(s: string): string;
-  function greet(name: string): string;
+  function startLoadModel(path: string): void;
+  function getLoadStatus(): string;
+  function isModelReady(): boolean;
+  function startGeneration(prompt: string): void;
+  function getGenStatus(): string;
+  function getGenOutput(): string;
+  function isGenDone(): boolean;
 }
 
 export default inferi;

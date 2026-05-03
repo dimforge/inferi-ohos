@@ -17,3 +17,4 @@ entry/libs/x86_64/
 # DevEco Studio
 .idea/
 local.properties
+.DS_Store
